@@ -7,12 +7,26 @@
 
 /* Body */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-}
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+/* Si l'écran fait moins de 768px (c'est-à-dire sur les tablettes et les téléphones) */
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightgray; /* Exemple de changement de fond */
+    }
+  
+    .header {
+      font-size: 18px; /* Exemple de taille de texte différente pour les petits écrans */
+    }
+  
+    .container {
+      width: 100%; /* S'assurer que les éléments prennent toute la largeur sur mobile */
+    }
+  
+    /* Autres styles spécifiques aux petits écrans */
+  }
 /* Container */
 .container {
     width: 90%;
